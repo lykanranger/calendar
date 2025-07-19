@@ -97,3 +97,44 @@
   font-weight: lighter;
   letter-spacing: 2px;
 }
+
+@media only screen and (max-width: 768px) {
+  .calender {
+    width: 70%;
+    height: auto;
+  }
+  .days div {
+    height: 30px;
+  }
+    .month h1 {
+        font-size: 28px;
+    }
+    .month p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+  .calender {
+    width: 75%;
+  }
+  .days div {
+    height: 40px;
+    font-size: 12px;
+  }
+  .month h1 {
+    font-size: 24px;
+  }
+  .month p {
+    font-size: 14px;
+  }
+  .weekdays div{
+    font-size: 10px;
+  }
+  .month {
+    height: 100px;
+  }
+    .author {
+        font-size: 20px;
+    }
+}
